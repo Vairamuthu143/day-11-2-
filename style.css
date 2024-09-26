@@ -1,0 +1,32 @@
+
+
+h3 label::after{
+    content: "*";
+    color: red;
+    font-size: 20px ;
+}
+.required h3::after{
+    content: "*";
+    color: red;
+    font-size:20px;
+}
+.checked {
+    display: flex;
+    gap: 10px;
+    color:rgb(247, 167, 18);
+    position: relative;
+    bottom: 7px;
+    font-size: 25px;
+    
+  }
+  h4{
+    position: relative;
+    bottom: 30px;
+  }
+.how::after{
+  content: "*";
+  color: red;
+  font-size:20px;
+}
+
+
